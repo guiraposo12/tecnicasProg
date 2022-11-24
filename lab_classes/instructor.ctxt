@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=instructor
+comment0.text=\r\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ instructor\ aqui.\r\n\ \r\n\ @author\ (seu\ nome)\ \r\n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\r\n
+comment1.params=name\ id\ student
+comment1.target=instructor(java.lang.String,\ java.lang.String,\ Student)
+comment2.params=student
+comment2.target=void\ addStudent(Student)
+comment3.params=student
+comment3.target=void\ removeStudent(Student)
+numComments=4

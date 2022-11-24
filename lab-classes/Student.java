@@ -72,7 +72,23 @@ public class Student
      */
     public String getLoginName()
     {
-        return name.substring(0,4) + id.substring(0,3);
+        int name_length = name.length();
+        int id_length = id.length();
+        
+        if ((name_length>=4) && (id_length>=3)){
+            return name.substring(0,4) + id.substring(0,3);
+        }
+        
+        else if (name_length>=4){
+            return name.substring(0,4) + id.substring(0,id_length);
+        }
+        
+        else  if (id_length>=3){
+            return name.substring(0,name_length) + id.substring(0,3);    
+        }
+        else{
+            return name.substring(0,name_length) + id.substring(0,id_length); 
+        }
     }
     
     /**
